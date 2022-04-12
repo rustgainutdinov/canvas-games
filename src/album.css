@@ -36,4 +36,28 @@ footer p {
   margin-bottom: .25rem;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  margin-left: 0.3rem;
+}
+
+.pagination a.active {
+  background-color: black;
+  color: white;
+  border-radius: 0.5rem;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+  border-radius: 0.5rem;
+}
+
 .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }

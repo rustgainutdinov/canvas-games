@@ -25,8 +25,10 @@ function _draw() {
     _drawTEXT();
     if (Advice === 1)
         _drawADVICE();
-    if (PLAYER.steps === 0)
+    if (PLAYER.steps === 0) {
         _drawLOSE();
+        // aud.pause();
+    }
     _drawWIN(EndFlag);
 }
 

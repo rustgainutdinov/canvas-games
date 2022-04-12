@@ -54,6 +54,8 @@ var TRIANGLE = {
     opacity: 0,
 }
 triangleArr = []
+var aud = new Audio();
+aud.src = './music.mp3';
 var numpadimg = new Image();
 numpadimg.src = 'images/numpad.jpg';
 var maxLifes = CIRCLE.lifes;
@@ -273,7 +275,7 @@ var time = 0;
 
 function play() {
     time += 1;
-
+    aud.play();
     if (time % (TRIANGLE.reload - Math.floor(time / 600)) == 0) {
         setTimeout(() => { createTriangle(triangleArr, TRIANGLE.speed); }, 400);  
         //console.log();
@@ -317,6 +319,7 @@ function play() {
     }
     else {
         drawGameOverScreen(GAME);
+        stop(aud);
     }
     requestAnimationFrame(play);
 }

@@ -162,7 +162,7 @@ function endTetromino() {
     for (let row = playplace.length - 1; row >= 0;) {
         //если ряд заполнен
         if (playplace[row].every(cell => !!cell)) {
-            //очищаем ряд и опускаем другие ряды на 1 игровую клетку
+            //очищаем ряд и опускаем другие ряды на Odintsov_Andrey игровую клетку
             for (let r = row; r >= 0; r--) {
                 for (let c = 0; c < playplace[r].length; c++) {
                     playplace[r][c] = playplace[r - 1][c];

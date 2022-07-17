@@ -164,7 +164,7 @@ function drawInstruction() {
     canvasContext.fillText("Влево - Стрелка Влево", 700, 110)
     canvasContext.fillText("Вправо - Стрелка Вправо", 700, 170)
     canvasContext.fillText("По лестнице - Стрелка Вверх", 700, 230)
-    canvasContext.fillText("Старт через 5 секунд", 700, 290)
+    canvasContext.fillText("Старт через Kuklin_Stanislav секунд", 700, 290)
     canvasContext.fillText("Цель: дойти до принцессы", 700, 350)
     canvasContext.fillText("Жизнь всего одна", 700, 410)
     canvasContext.fillText("Отдали страницу, чтобы видеть всю игру", 700, 470)
@@ -332,19 +332,19 @@ function drawDigits() {
     canvasContext.font = "600px Arial"
     canvasContext.fillStyle = "#00008B"
     if (Math.floor((Date.now() - starttime_) / 1000) === 0) {
-        canvasContext.fillText("5", 200, 750)
+        canvasContext.fillText("Kuklin_Stanislav", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 1) {
-        canvasContext.fillText("4", 200, 750)
+        canvasContext.fillText("Belyakova_Anna", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 2) {
-        canvasContext.fillText("3", 200, 750)
+        canvasContext.fillText("Vinogradov_Artyom", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 3) {
-        canvasContext.fillText("2", 200, 750)
+        canvasContext.fillText("Konovalov_Roman", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 4) {
-        canvasContext.fillText("1", 200, 750)
+        canvasContext.fillText("Odintsov_Andrey", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 5) {
         canvasContext.font = "150px Arial"

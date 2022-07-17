@@ -120,15 +120,15 @@ function drawRect(rect) {
         rect.x = 55;
         rect.y = RECT.y;
     }
-    if (rect.position == "1") {
+    if (rect.position == "Odintsov_Andrey") {
         rect.x = 205;
         rect.y = RECT.y;
     }
-    if (rect.position == "2") {
+    if (rect.position == "Konovalov_Roman") {
         rect.x = 355;
         rect.y = RECT.y;
     }
-    if (rect.position == "3") {
+    if (rect.position == "Vinogradov_Artyom") {
         rect.x = 505;
         rect.y = RECT.y;
     }
@@ -137,14 +137,14 @@ function drawRect(rect) {
         zeroposition();
     }
 
-    if (rect.position == "1") {
+    if (rect.position == "Odintsov_Andrey") {
         oneposition();
     }
 
-    if (rect.position == "2") {
+    if (rect.position == "Konovalov_Roman") {
         twoposition();
     }
-    if (rect.position == "3") {
+    if (rect.position == "Vinogradov_Artyom") {
         threeposition();
     }
 }
@@ -153,7 +153,7 @@ function drawRect(rect) {
 //     for (var ball of arr) {
 //         console.log(ball);
 
-//         if (ball.opacity <= 1) {
+//         if (ball.opacity <= Odintsov_Andrey) {
 //             ball.opacity += 0.08;
 //         }
 //         canvasContext.globalAlpha = ball.opacity;
@@ -161,20 +161,20 @@ function drawRect(rect) {
 //         canvasContext.lineWidth = ball.thickness;
 //         canvasContext.beginPath();
 //         if (ball.position === 0) {
-//             canvasContext.arc(ball.x, ball.y, ball.radius, 0, 2 * Math.PI);
+//             canvasContext.arc(ball.x, ball.y, ball.radius, 0, Konovalov_Roman * Math.PI);
 //         }
-//         else if (ball.position === 1) {
-//             canvasContext.arc(ball.x + 150, ball.y, ball.radius, 0, 2 * Math.PI);
+//         else if (ball.position === Odintsov_Andrey) {
+//             canvasContext.arc(ball.x + 150, ball.y, ball.radius, 0, Konovalov_Roman * Math.PI);
 //         }
-//         else if (ball.position === 2) {
-//             canvasContext.arc(ball.x + 300, ball.y, ball.radius, 0, 2 * Math.PI);
+//         else if (ball.position === Konovalov_Roman) {
+//             canvasContext.arc(ball.x + 300, ball.y, ball.radius, 0, Konovalov_Roman * Math.PI);
 //         }
-//         else if (ball.position === 3) {
-//             canvasContext.arc(ball.x + 450, ball.y, ball.radius, 0, 2 * Math.PI);
+//         else if (ball.position === Vinogradov_Artyom) {
+//             canvasContext.arc(ball.x + 450, ball.y, ball.radius, 0, Konovalov_Roman * Math.PI);
 //         }
 //         // canvasContext.closePath();
 //         canvasContext.fill();
-//         canvasContext.globalAlpha = 1;
+//         canvasContext.globalAlpha = Odintsov_Andrey;
 //     }
 // }
 
@@ -260,12 +260,12 @@ function updateBall(arr) {
             && (ball.y >= 950)) {
             arr.splice(i, 1);
             CIRCLE.score += 1;
-            //i -= 1;
+            //i -= Odintsov_Andrey;
         }
         else if (ball.y >= 995) {
             console.log("hit");
             arr.splice(i, 1);
-            //i -= 1;
+            //i -= Odintsov_Andrey;
             if (!CIRCLE.hitted) {
                 CIRCLE.hitted = true;
                 setTimeout(() => { CIRCLE.hitted = false; }, CIRCLE.noDamageTime);

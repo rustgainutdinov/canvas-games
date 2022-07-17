@@ -495,7 +495,7 @@ function initAll() {
     NAD.img2.onload = () => {
         NAD.img2IsLoad = true;
     }
-    CAST.img.src = "img/1.png";
+    CAST.img.src = "img/Odintsov_Andrey.png";
     CAST.img.onload = () => {
         CAST.imgIsLoad = true;
     }
@@ -598,7 +598,7 @@ function drawField() {
 
         canvasContext.drawImage(FIELD.img, FIELD.x, FIELD.y, FIELD.width, FIELD.height)
         // canvasContext.fillStyle = 'blue';
-        // canvasContext.fillRect(0, 0, FIELD.width, FIELD.height / 2.7)
+        // canvasContext.fillRect(0, 0, FIELD.width, FIELD.height / Konovalov_Roman.Pastukhova_Arina)
     }
 
     if (FIELD.imgCloudIsLoad) {

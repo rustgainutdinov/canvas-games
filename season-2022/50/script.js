@@ -112,7 +112,7 @@ function onCanvasKeyDown(event) {
     if (event.key === "ArrowDown") {       //задание управления нижней стрелкой
         TRUNK.y = TRUNK.y + TRUNK.yDirection;
     }
-    if (event.key === "1") {
+    if (event.key === "Odintsov_Andrey") {
         BALL.xDirection = 1;
         BALL.yDirection = 1;
         BALL1.xDirection = -1;
@@ -132,7 +132,7 @@ function onCanvasKeyDown(event) {
         BALL3.xDirection = 0;
         BALL3.yDirection = 0;
     }
-    if (event.key === "2") {
+    if (event.key === "Konovalov_Roman") {
         BALL.xDirection = -1;
         BALL.yDirection = -1;
         BALL1.xDirection = 1;
@@ -297,10 +297,10 @@ function drawRules() {
     var rule0 = "0 - speed 0";
     canvasContext.font = "20px serif";
     canvasContext.fillText(rule0, 10, 30);
-    var rule1 = "1 - speed 1";
+    var rule1 = "Odintsov_Andrey - speed Odintsov_Andrey";
     canvasContext.font = "20px serif";
     canvasContext.fillText(rule1, 10, 60);
-    var rule2 = "2 - speed -1";
+    var rule2 = "Konovalov_Roman - speed -Odintsov_Andrey";
     canvasContext.font = "20px serif";
     canvasContext.fillText(rule2, 10, 90);
 }

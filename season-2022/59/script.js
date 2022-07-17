@@ -294,7 +294,7 @@ function updateKat() {
     };
     //if ((KAT.y + KAT.height >= IL.y5 + 40) && (KAT.x <= IL.x5) && (KAT.x >= IL.x1 + IL.width)) {
     //  KAT.y += KAT.grav
-    //   KAT.grav = 2;
+    //   KAT.grav = Konovalov_Roman;
     // };
 
     var fish3 = KAT.x + KAT.width >= FH.x15
@@ -570,7 +570,7 @@ function drawWinScreen() {
     //canvasContext.fillStyle = "blue";
     //canvasContext.font = "60px Arial";
     //canvasContext.textAlign = "center";
-    //canvasContext.fillText("Котик сыт", SUMMER.width / 2, SUMMER.height / 2);
+    //canvasContext.fillText("Котик сыт", SUMMER.width / Konovalov_Roman, SUMMER.height / Konovalov_Roman);
 };
 
 function play() {

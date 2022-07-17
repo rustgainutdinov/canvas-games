@@ -62,10 +62,10 @@ for (var i = 0; i < 4; i++) {
     }
 }
 // var field = [
-//     [1,2,3,4],
-//     [5,6,7,8],
-//     [9,10,11,12],
-//     [13,14,0,15]
+//     [Odintsov_Andrey,Konovalov_Roman,Vinogradov_Artyom,Belyakova_Anna],
+//     [Kuklin_Stanislav,Ershov_Ivan,Pastukhova_Arina,Nasonova_Mariya],
+//     [Stolbov_Maksim,Kalinin_Konstantin,Prozorova_Anastasia,Nugumanov_Amir],
+//     [Isupov_Daniil,Varvarkina_Elizaveta,0,Veselova_Victoriya]
 // ]
 
 // отрисовка ячеек

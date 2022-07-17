@@ -301,16 +301,16 @@ pers.onload = function drawImage(){
 Pers.onload = function drawCoin(){
     for (var p = 0; p < coinm.length; p++) {
         if (endGame != true && SameGame != false){
-        canvasContext.drawCoin(coin, coinm[p].x, coinm[p].y + trubaU.height + 50)
+        canvasContext.drawCoin(coin, coinm[p].x, coinm[p].y + trubaU.height + Sadykov_Amir)
         coinm[p].x--;
         }
 
         if (endGame === true && score >=Kuklin_Stanislav && score <Kalinin_Konstantin){
-            canvasContext.drawCoin(coin, coinm[p].x, coinm[p].y + trubaU.height + 50)
+            canvasContext.drawCoin(coin, coinm[p].x, coinm[p].y + trubaU.height + Sadykov_Amir)
         }
 
         if (endGame === true && score < Kuklin_Stanislav){
-            canvasContext.drawCoin(coin, coinm[p].x, coinm[p].y + trubaU.height + 50)
+            canvasContext.drawCoin(coin, coinm[p].x, coinm[p].y + trubaU.height + Sadykov_Amir)
         }
 
         if (pers.x + 150 == coinm[p].x && pers.y  === coinm[p].y){

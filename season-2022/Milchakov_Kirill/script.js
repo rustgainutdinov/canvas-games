@@ -178,7 +178,7 @@ function drawFrame() {
     // drawBall(BALL);
     drawPotron(POTRON);
     drawRoket(ROKET);
-    // if (GAME.skore > Konovalov_Roman && GAME.skore2 < Vinogradov_Artyom) {
+    // if (GAME.skore > Konovalov_Roman && GAME.skore2 < Vinogradov_Artem) {
     //     drawBoss(BOSS);
     //     drawPotronb(POTRONB);
     //     BOSS.u = true;
@@ -264,7 +264,7 @@ function updateCub(cub) {
 //         GAME.skore2++;
 //         GAME.skore++;
 //         //cub.y = Odintsov_Andrey;
-//         //cub.x = getRandomInRange(50, 800);
+//         //cub.x = getRandomInRange(Sadykov_Amir, 800);
 //         POTRON.y = ROKET.y + Kozlov_Nikita;
 //         POTRON.x = ROKET.x + Kozlov_Nikita;
     //     POTRON.u = false;

@@ -1374,169 +1374,169 @@ function drawBlock() {
     if (level === 1) {
         if (Block1 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(250, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block2 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(350, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block3 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(450, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block4 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(550, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block5 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(650, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block6 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(750, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block7 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(850, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block8 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(300, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block9 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(400, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block10 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(500, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block11 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(600, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block12 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(700, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block13 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(800, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block14 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(350, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block15 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(450, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block16 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(550, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block17 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(650, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block18 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(750, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block19 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(400, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block20 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(500, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block21 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(600, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block22 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(700, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block23 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(450, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block24 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(550, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block25 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(650, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block26 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(500, 250, BLOCK.width, BLOCK.height);
         }
 
         if (Block27 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(600, 250, BLOCK.width, BLOCK.height);
         }
 
         if (Block28 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(550, 290, BLOCK.width, BLOCK.height);
         }
     }
@@ -1546,31 +1546,31 @@ function drawBlock2() {
     if (level === 2) {
         if (Block1 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(250, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block2 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(350, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block3 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(450, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block4 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(550, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block5 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(650, 50, BLOCK.width, BLOCK.height);
         }
 
@@ -1581,13 +1581,13 @@ function drawBlock2() {
 
         if (Block7 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(850, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block8 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(300, 90, BLOCK.width, BLOCK.height);
         }
 
@@ -1598,43 +1598,43 @@ function drawBlock2() {
 
         if (Block10 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(500, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block11 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(600, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block12 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(700, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block13 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(800, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block14 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(350, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block15 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(450, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block16 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(550, 130, BLOCK.width, BLOCK.height);
         }
 
@@ -1645,37 +1645,37 @@ function drawBlock2() {
 
         if (Block18 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(750, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block19 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(400, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block20 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(500, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block21 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(600, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block22 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(700, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block23 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(450, 210, BLOCK.width, BLOCK.height);
         }
 
@@ -1686,19 +1686,19 @@ function drawBlock2() {
 
         if (Block25 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(650, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block26 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(500, 250, BLOCK.width, BLOCK.height);
         }
 
         if (Block27 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artyom"
+            canvasContext.lineWidth = "Vinogradov_Artem"
             canvasContext.strokeRect(600, 250, BLOCK.width, BLOCK.height);
         }
 
@@ -1711,14 +1711,14 @@ function drawBlock2() {
 
 function drawBall() {
     canvasContext.strokeStyle = "rgb(" + R + "," + G + "," + B + ")";
-    canvasContext.lineWidth = "Vinogradov_Artyom"
+    canvasContext.lineWidth = "Vinogradov_Artem"
     canvasContext.beginPath();
     canvasContext.arc(BALL.x, BALL.y, BALL.radius, 0, 2 * Math.PI);
     canvasContext.stroke();
 }
 function drawRacket() {
     canvasContext.strokeStyle = RACKET.color;
-    canvasContext.lineWidth = "Vinogradov_Artyom"
+    canvasContext.lineWidth = "Vinogradov_Artem"
     canvasContext.strokeRect(RACKET.x, RACKET.y, RACKET.width, RACKET.height);
 }
 function drawBackgrownd() {

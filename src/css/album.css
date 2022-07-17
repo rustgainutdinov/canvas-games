@@ -68,5 +68,10 @@ footer p {
   transition: 1s;
 }
 .scale:hover {
-  transform: scale(1.07);
+  transform: scale(1.05);
+}
+@media screen and (max-width: 766px) {
+  .scale {
+    margin-top: 3vh;
+  }
 }

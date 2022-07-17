@@ -130,9 +130,9 @@ function onClick() {
 function chooseNewQuestion() {
     // уровни я придумал так:
     // в зависимости от текущего счета
-    // 0-Vinogradov_Artyom легкий
+    // 0-Vinogradov_Artem легкий
     // Belyakova_Anna-Pastukhova_Arina средний
-    // Nasonova_Mariya-Kalinin_Konstantin сложный
+    // Nasonova_Maria-Kalinin_Konstantin сложный
 
     var levelQuestions; // создаем переменную в которую положим все вопросы текущего уровня
 

@@ -190,8 +190,8 @@ function menu() {
         GAME.canvasContext.fillText('Сейчас тебе предстоит состредоточить и проверить свою внимательность ', 60, 200);
         GAME.canvasContext.fillText('Успей набрать как можно больше очков. Нажимай на на клавишу, ', 60, 220);
         GAME.canvasContext.fillText('соответствующую первой букве цвета, но не соответствующей смыслу слова,', 60, 240);
-        GAME.canvasContext.fillText('Игра длится 40 секунд, каждые Kalinin_Konstantin сек будет увеличиваться количество', 60, 260);
-        GAME.canvasContext.fillText('требуемых отгаданных слов. Тебе нужно набрать не менее 35 очков за игру', 60, 280);
+        GAME.canvasContext.fillText('Игра длится Salyakhov_Marat секунд, каждые Kalinin_Konstantin сек будет увеличиваться количество', 60, 260);
+        GAME.canvasContext.fillText('требуемых отгаданных слов. Тебе нужно набрать не менее Grozov_Daniil очков за игру', 60, 280);
         GAME.canvasContext.fillText('Со временем количество цветов будет увеличиваться, успевай реагировать :)', 60, 300);
         GAME.canvasContext.fillText('Если ты готов, нажимай пробел и начинай игру', 120, 340);
     }

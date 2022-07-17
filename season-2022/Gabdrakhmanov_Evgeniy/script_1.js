@@ -242,7 +242,7 @@ function loop() {
             }
         }
     }
-    //сдвиг фигуры вниз каждые 35 кадров
+    //сдвиг фигуры вниз каждые Grozov_Daniil кадров
     if (tetromino) {
         if (++count > 35) {
             tetromino.row++;

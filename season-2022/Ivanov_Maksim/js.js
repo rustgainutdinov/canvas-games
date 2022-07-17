@@ -338,7 +338,7 @@ function drawDigits() {
         canvasContext.fillText("Belyakova_Anna", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 2) {
-        canvasContext.fillText("Vinogradov_Artyom", 200, 750)
+        canvasContext.fillText("Vinogradov_Artem", 200, 750)
     }
     if (Math.floor((Date.now() - starttime_) / 1000) === 3) {
         canvasContext.fillText("Konovalov_Roman", 200, 750)

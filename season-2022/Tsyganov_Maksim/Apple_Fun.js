@@ -208,7 +208,7 @@ function drawCal() {
 }
 
 function initlife() {
-    LIFE.img.src = "life-Vinogradov_Artyom.png";
+    LIFE.img.src = "life-Vinogradov_Artem.png";
     LIFE.img.onload = () => {
         LIFE.imgIsLoad = true;
     }
@@ -354,7 +354,7 @@ function updateCal() {
 // жизни игрока
 function updatelifen() {
     if (life === 3) {
-        LIFE.img.src = "life-Vinogradov_Artyom.png";
+        LIFE.img.src = "life-Vinogradov_Artem.png";
     }
     if (life === 2) {
         LIFE.img.src = "life-Konovalov_Roman.png";

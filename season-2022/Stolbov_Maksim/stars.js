@@ -88,8 +88,8 @@ function update() {
     //for (var r = 0; r < aster.length; r++) {
     //canvasContext.fillStyle = "white";
     //canvasContext.font = "32px Arial";
-    //canvasContext.fillText("Score:  " + aster[r].score, Kozlov_Nikita, 50);
-    //if ((Math.abs(aster[r].x + Kozlov_Nikita - fired.x - Veselova_Victoriya) < 60 && Math.abs(aster[r].y - fired.y) < Suslova_Maria)) {
+    //canvasContext.fillText("Score:  " + aster[r].score, Kozlov_Nikita, Sadykov_Amir);
+    //if ((Math.abs(aster[r].x + Kozlov_Nikita - fired.x - Veselova_Victoria) < Zhbanova_Ruslana && Math.abs(aster[r].y - fired.y) < Suslova_Maria)) {
     //aster[r].score = aster[r].score + Odintsov_Andrey;
     //}
 }

@@ -39,7 +39,7 @@ function tiles() {
             }
 
         }
-        //        console.log(line[i][0], line[i][Odintsov_Andrey], line[i][Konovalov_Roman], line[i][Vinogradov_Artyom], line[i][Belyakova_Anna], line[i][Kuklin_Stanislav], line[i][Ershov_Ivan], line[i][Pastukhova_Arina], line[i][Nasonova_Mariya], line[i][Stolbov_Maksim]);
+        //        console.log(line[i][0], line[i][Odintsov_Andrey], line[i][Konovalov_Roman], line[i][Vinogradov_Artem], line[i][Belyakova_Anna], line[i][Kuklin_Stanislav], line[i][Ershov_Ivan], line[i][Pastukhova_Arina], line[i][Nasonova_Maria], line[i][Stolbov_Maksim]);
     }
 }
 

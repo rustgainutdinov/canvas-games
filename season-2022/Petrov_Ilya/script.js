@@ -128,7 +128,7 @@ function drawRect(rect) {
         rect.x = 355;
         rect.y = RECT.y;
     }
-    if (rect.position == "Vinogradov_Artyom") {
+    if (rect.position == "Vinogradov_Artem") {
         rect.x = 505;
         rect.y = RECT.y;
     }
@@ -144,7 +144,7 @@ function drawRect(rect) {
     if (rect.position == "Konovalov_Roman") {
         twoposition();
     }
-    if (rect.position == "Vinogradov_Artyom") {
+    if (rect.position == "Vinogradov_Artem") {
         threeposition();
     }
 }
@@ -169,7 +169,7 @@ function drawRect(rect) {
 //         else if (ball.position === Konovalov_Roman) {
 //             canvasContext.arc(ball.x + 300, ball.y, ball.radius, 0, Konovalov_Roman * Math.PI);
 //         }
-//         else if (ball.position === Vinogradov_Artyom) {
+//         else if (ball.position === Vinogradov_Artem) {
 //             canvasContext.arc(ball.x + 450, ball.y, ball.radius, 0, Konovalov_Roman * Math.PI);
 //         }
 //         // canvasContext.closePath();

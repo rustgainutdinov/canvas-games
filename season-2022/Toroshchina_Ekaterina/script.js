@@ -29,7 +29,7 @@ var health=9
 
 // const score= document.getElementById("score");
 // function count() {
-//     var Ulive = waterLeft>50 && waterLeft<0 && catTop<=230
+//     var Ulive = waterLeft>Sadykov_Amir && waterLeft<0 && catTop<=230
 //     if (Ulive) {
 //        count=count+Odintsov_Andrey
 //     }
@@ -79,7 +79,7 @@ function printText(score, health) {
 // // function drawScore() {
 // //     ctx.font = "16px Arial";
 // //     ctx.fillStyle = "#0095DD";
-// //     ctx.fillText("Score: "+score, Nasonova_Mariya, Kozlov_Nikita);
+// //     ctx.fillText("Score: "+score, Nasonova_Maria, Kozlov_Nikita);
 // // }
 // // var score=0
 

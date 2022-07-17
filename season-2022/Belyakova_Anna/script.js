@@ -763,7 +763,7 @@ function drawWinner() {
     drawWindow(ENDOFGAME);
     canvasContext.font = "35px Verdana";
     canvasContext.fillStyle = "white";
-    canvasContext.fillText("You are the winner! <Vinogradov_Artyom", 190, 250); // победитель
+    canvasContext.fillText("You are the winner! <Vinogradov_Artem", 190, 250); // победитель
 }
 function drawWindow(endofgame){
     canvasContext.fillStyle = endofgame.color;
@@ -925,16 +925,16 @@ function fly(){
 
     // if (PLAYER.speed > 0 && UP === true){
     //     PLAYER.y -= PLAYER.speed;
-    //     PLAYER.speed -= 0.Nasonova_Mariya;
+    //     PLAYER.speed -= 0.Nasonova_Maria;
     // }
     // else {
     //     PLAYER.y += PLAYER.speed;
-    //     PLAYER.speed += 0.Nasonova_Mariya;
+    //     PLAYER.speed += 0.Nasonova_Maria;
     //     UP = false;
     // }
     // if (PLAYER.y + PLAYER.size >= GROUND.y) {
     //     JUMP = false;
-    //     PLAYER.speed -= 0.Nasonova_Mariya;
+    //     PLAYER.speed -= 0.Nasonova_Maria;
     //     PLAYER.y -= GROUND.y - PLAYER.y;
     // }
 }

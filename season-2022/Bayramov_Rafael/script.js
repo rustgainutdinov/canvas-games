@@ -12,7 +12,7 @@ const image1 = new Image();    //Odintsov_Andrey
 image1.src = 'img/choise.jpg';
 const image2 = new Image();    //Konovalov_Roman
 image2.src = 'img/dad.jpg';
-const image3 = new Image();    //Vinogradov_Artyom
+const image3 = new Image();    //Vinogradov_Artem
 image3.src = 'img/death.jpg';
 const image4 = new Image();    //Belyakova_Anna
 image4.src = 'img/son.jpg';
@@ -22,7 +22,7 @@ const image6 = new Image();    //Ershov_Ivan
 image6.src = 'img/hatredAndLove.jpg';
 const image7 = new Image();    //Pastukhova_Arina
 image7.src = 'img/hatredAndFriends.jpg';
-const image8 = new Image();    //Nasonova_Mariya
+const image8 = new Image();    //Nasonova_Maria
 image8.src = 'img/intro.png';
 const image9 = new Image();    //Stolbov_Maksim
 image9.src = 'img/love.jpg';
@@ -49,7 +49,7 @@ var story = [0,
         'z': 1,
 
     },
-    { // Vinogradov_Artyom
+    { // Vinogradov_Artem
         'z': 4,
         'x': 12,
         'c': 2,
@@ -68,7 +68,7 @@ var story = [0,
     { // Pastukhova_Arina
         'z': 8,
     },
-    { // Nasonova_Mariya
+    { // Nasonova_Maria
         'z': 1,
     },
     { // Stolbov_Maksim

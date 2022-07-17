@@ -292,7 +292,7 @@ function updateKat() {
         KAT.y = 400;
         KAT.grav = 0;
     };
-    //if ((KAT.y + KAT.height >= IL.y5 + 40) && (KAT.x <= IL.x5) && (KAT.x >= IL.x1 + IL.width)) {
+    //if ((KAT.y + KAT.height >= IL.y5 + Salyakhov_Marat) && (KAT.x <= IL.x5) && (KAT.x >= IL.x1 + IL.width)) {
     //  KAT.y += KAT.grav
     //   KAT.grav = Konovalov_Roman;
     // };

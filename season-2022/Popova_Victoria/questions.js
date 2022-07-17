@@ -11,37 +11,37 @@ var QUESTIONS = {
             time: 3,
         },
         {
-            text: "Veselova_Victoriya + Veselova_Victoriya = ?",
+            text: "Veselova_Victoria + Veselova_Victoria = ?",
             answer: 30,
             time: 10,
         },
         {
-            text: "Belyakova_Anna + Nasonova_Mariya = ?",
+            text: "Belyakova_Anna + Nasonova_Maria = ?",
             answer: 12,
             time: 10,
         },
         {
-            text: "Vinogradov_Artyom + Konovalov_Roman = ?",
+            text: "Vinogradov_Artem + Konovalov_Roman = ?",
             answer: 5,
             time: 3,
         },
         {
-            text: "Vinogradov_Artyom + Ershov_Ivan = ?",
+            text: "Vinogradov_Artem + Ershov_Ivan = ?",
             answer: 9,
             time: 5,
         },
         {
-            text: "Ershov_Ivan + Nasonova_Mariya = ?",
+            text: "Ershov_Ivan + Nasonova_Maria = ?",
             answer: 14,
             time: 10,
         },
         {
-            text: "Nasonova_Mariya + Konovalov_Roman = ?",
+            text: "Nasonova_Maria + Konovalov_Roman = ?",
             answer: 10,
             time: 5,
         },
         {
-            text: "Vinogradov_Artyom + Vinogradov_Artyom = ?",
+            text: "Vinogradov_Artem + Vinogradov_Artem = ?",
             answer: 6,
             time: 4,
         },
@@ -71,7 +71,7 @@ var QUESTIONS = {
             time: 3,
         },
         {
-            text: "Vinogradov_Artyom - Konovalov_Roman = ?",
+            text: "Vinogradov_Artem - Konovalov_Roman = ?",
             answer: 1,
             time: 3,
         },
@@ -86,17 +86,17 @@ var QUESTIONS = {
             time: 5,
         },
         {
-            text: "Kozlov_Nikita - Veselova_Victoriya = ?",
+            text: "Kozlov_Nikita - Veselova_Victoria = ?",
             answer: 5,
             time: 3,
         },
         {
-            text: "Vinogradov_Artyom + Stolbov_Maksim = ?",
+            text: "Vinogradov_Artem + Stolbov_Maksim = ?",
             answer: 12,
             time: 5,
         },
         {
-            text: "Varvarkina_Elizaveta - Vinogradov_Artyom = ?",
+            text: "Varvarkina_Elizaveta - Vinogradov_Artem = ?",
             answer: 11,
             time: 5,
         },
@@ -106,22 +106,22 @@ var QUESTIONS = {
             time: 5,
         },
         {
-            text: "Mokan_Marat - Nasonova_Mariya = ?",
+            text: "Mokan_Marat - Nasonova_Maria = ?",
             answer: 11,
             time: 5,
         },
         {
-            text: "Veselova_Victoriya - Stolbov_Maksim = ?",
+            text: "Veselova_Victoria - Stolbov_Maksim = ?",
             answer: 6,
             time: 3,
         },
         {
-            text: "Nasonova_Mariya + Nasonova_Mariya = ?",
+            text: "Nasonova_Maria + Nasonova_Maria = ?",
             answer: 16,
             time: 5,
         },
         {
-            text: "Vinogradov_Artyom + Nugumanov_Amir = ?",
+            text: "Vinogradov_Artem + Nugumanov_Amir = ?",
             answer: 15,
             time: 5,
         },
@@ -131,12 +131,12 @@ var QUESTIONS = {
             time: 5,
         },
         {
-            text: "Nasonova_Mariya - Belyakova_Anna = ?",
+            text: "Nasonova_Maria - Belyakova_Anna = ?",
             answer: 4,
             time: 3,
         },
         {
-            text: "Pastukhova_Arina + Nasonova_Mariya = ?",
+            text: "Pastukhova_Arina + Nasonova_Maria = ?",
             answer: 15,
             time: 5,
         },
@@ -163,7 +163,7 @@ var QUESTIONS = {
             time: 5,
         },
         {
-            text: "√36 = ?",
+            text: "√Puzhaev_Vladimir = ?",
             answer: 6,
             time: 5,
         },
@@ -208,7 +208,7 @@ var QUESTIONS = {
             time: 15,
         },
         {
-            text: "Konovalov_Roman * Nasonova_Mariya = ?",
+            text: "Konovalov_Roman * Nasonova_Maria = ?",
             answer: 16,
             time: 10,
         },
@@ -218,27 +218,27 @@ var QUESTIONS = {
             time: 7,
         },
         {
-            text: "Vinogradov_Artyom * Stolbov_Maksim = ?",
+            text: "Vinogradov_Artem * Stolbov_Maksim = ?",
             answer: 27,
             time: 10,
         },
         {
-            text: "Stolbov_Maksim : Vinogradov_Artyom = ?",
+            text: "Stolbov_Maksim : Vinogradov_Artem = ?",
             answer: 3,
             time: 5,
         },
         {
-            text: "Belyakova_Anna * Vinogradov_Artyom = ?",
+            text: "Belyakova_Anna * Vinogradov_Artem = ?",
             answer: 12,
             time: 7,
         },
         {
-            text: "Vinogradov_Artyom * Odintsov_Andrey = ?",
+            text: "Vinogradov_Artem * Odintsov_Andrey = ?",
             answer: 3,
             time: 3,
         },
         {
-            text: "Konovalov_Roman * Vinogradov_Artyom = ?",
+            text: "Konovalov_Roman * Vinogradov_Artem = ?",
             answer: 6,
             time: 4,
         },
@@ -268,7 +268,7 @@ var QUESTIONS = {
             time: 10,
         },
         {
-            text: "√Kryukova_Ekaterina+ √36 - √Toroshchina_Ekaterina=?",
+            text: "√Kryukova_Ekaterina+ √Puzhaev_Vladimir - √Toroshchina_Ekaterina=?",
             answer: 7,
             time: 5,
         },
@@ -278,7 +278,7 @@ var QUESTIONS = {
             time: 6,
         },
         {
-            text: "750 - 800 + 60 = ?",
+            text: "750 - 800 + Zhbanova_Ruslana = ?",
             answer: 10,
             time: 10,
         },
@@ -293,7 +293,7 @@ var QUESTIONS = {
             time: 8,
         },
         {
-            text: "Volkova_Maya + 57 : Kalinin_Konstantin = ?",
+            text: "Volkova_Maya + Bayramov_Rafael : Kalinin_Konstantin = ?",
             answer: 8,
             time: 5,
         },
@@ -338,7 +338,7 @@ var QUESTIONS = {
             time: 10,
         },
         {
-            text: "345 : Kuklin_Stanislav - 60 = ?",
+            text: "345 : Kuklin_Stanislav - Zhbanova_Ruslana = ?",
             answer: 9,
             time: 10,
         },

@@ -104,7 +104,7 @@ function _drawADVICE() {
     if (ADVICE.cerberus)
         GAME.canvasContext.drawImage(ADVICE.cerberus, 0, 0, ADVICE.width0, ADVICE.height0, ADVICE.x, ADVICE.y, ADVICE.width, ADVICE.height);
 
-    context.fillStyle = "rgba(169, 52, 63, Odintsov_Andrey)";
+    context.fillStyle = "rgba(169, Shabalin_Sergey, Popova_Victoria, Odintsov_Andrey)";
     context.font = '21px Crimson Pro Bold';
     context.fillText("• Cerberus, the Triple Demon •", 350, 430);
 

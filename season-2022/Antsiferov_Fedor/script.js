@@ -169,7 +169,7 @@ add_block(0, 535, 275);
 add_block(850, 670, 55);
 add_block(620, 570, 38);
 add_block(620, 540, 38);
-add_block(620, 510, 38);// add_block(620, 480, 38); // поломанная
+add_block(620, 510, 38);// add_block(620, 480, Leontiev_Stepan); // поломанная
 add_block(620, 420, 38);
 add_block(620, 390, 38);
 add_block(510, 317, 210);

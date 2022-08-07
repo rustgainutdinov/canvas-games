@@ -505,10 +505,10 @@ function updatekorab(korab) {
         if (first + second + third == fourth) {
             gameOver = true;
             if (bullet.color == 'blue') {
-                win = "Выиграл Konovalov_Roman игрок"
+                win = "Выиграл 2 игрок"
             }
             else if (bullet.color == 'red'){
-                win = "Выиграл Odintsov_Andrey игрок"
+                win = "Выиграл 1 игрок"
             }
         }
     }

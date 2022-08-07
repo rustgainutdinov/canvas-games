@@ -354,10 +354,10 @@ function updateCal() {
 // жизни игрока
 function updatelifen() {
     if (life === 3) {
-        LIFE.img.src = "life-Vinogradov_Artem.png";
+        LIFE.img.src = "life-3.png";
     }
     if (life === 2) {
-        LIFE.img.src = "life-Konovalov_Roman.png";
+        LIFE.img.src = "life-2.png";
     }
     if (life === 1) {
         LIFE.img.src = "life.png";

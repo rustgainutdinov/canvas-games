@@ -75,9 +75,6 @@ function drawPlatform2(platform2) {
     canvasContext.fillStyle = platform2.color;
     canvasContext.fillRect(platform2.x, platform2.y, platform2.width, platform2.height);
 }
-// / of copiing
-
-// copiing Konovalov_Roman
 
 var PLATFORM3 = {
     color: "#FFFFFF",
@@ -108,8 +105,6 @@ function drawPlatform3(platform3) {
     canvasContext.fillStyle = platform3.color;
     canvasContext.fillRect(platform3.x, platform3.y, platform3.width, platform3.height);
 }
-
-// / copiing Konovalov_Roman
 
 function drawCharacter(character) {
     canvasContext.fillStyle = character.color;

@@ -105,10 +105,10 @@ function fall() {
     isJumping = true
     upTimerId = setInterval(function () {
       console.log(startPoint)
-      console.log('Odintsov_Andrey', doodlerBottomSpace)
+      console.log('1', doodlerBottomSpace)
       doodlerBottomSpace += 20
       doodler.style.bottom = doodlerBottomSpace + 'px'
-      console.log('Konovalov_Roman',doodlerBottomSpace)
+      console.log('2',doodlerBottomSpace)
       console.log('s',startPoint)
       if (doodlerBottomSpace > (startPoint + 200)) {
         fall()

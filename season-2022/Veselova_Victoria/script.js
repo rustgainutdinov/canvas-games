@@ -67,22 +67,22 @@ function drawScore() {
     txt.font = "30px Comic Sans MS";
     txt.fillStyle = "Coral";
     txt.textAlign = "center";
-    txt.fillText("№Odintsov_Andrey Score: " + GAME.count, 180, 80);
+    txt.fillText("№1 Score: " + GAME.count, 180, 80);
 }
 function drawScore2() {
     txt.font = "30px Comic Sans MS";
     txt.fillStyle = "black";
     txt.textAlign = "center";
-    txt.fillText("№Konovalov_Roman Score: " + GAME.count2, 520, 80);
+    txt.fillText("№2 Score: " + GAME.count2, 520, 80);
 }
 function win(){
     if (GAME.count > 100){
-        alert("Игрок № Odintsov_Andrey выиграл!Нажмите перезагрузить страницу, чтобы поиграть заново.")
+        alert("Игрок № 1 выиграл!Нажмите перезагрузить страницу, чтобы поиграть заново.")
     }
 }
 function win2(){
     if (GAME.count2 > 100){
-        alert("Игрок № Konovalov_Roman выиграл!Нажмите перезагрузить страницу, чтобы поиграть заново.")
+        alert("Игрок № 2 выиграл!Нажмите перезагрузить страницу, чтобы поиграть заново.")
     }
 }
 function initEventsListeners() {

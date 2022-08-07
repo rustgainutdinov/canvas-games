@@ -821,7 +821,7 @@ function drawEndOfGame(endofgame) {
     canvasContext.drawImage(buttonofrepeat, BUTTONOFREPEAT.x, BUTTONOFREPEAT.y, BUTTONOFREPEAT.width, BUTTONOFREPEAT.height);
     canvasContext.font = "30px Verdana";
     canvasContext.fillStyle = "white";
-    canvasContext.fillText("Striker", 352, 150); // название уровня Odintsov_Andrey БЛОК
+    canvasContext.fillText("Striker", 352, 150); // название уровня 1 БЛОК
     canvasContext.font = "20px Verdana";
     canvasContext.fillStyle = "white";
     canvasContext.fillText("Attempt " + ATTEMPT.count, 360, 190); // попытка
@@ -831,7 +831,7 @@ function drawEndOfGame(endofgame) {
     canvasContext.fillText(proc+"%", 380, 230); // процент прохождения
     canvasContext.font = "25px Verdana";
     canvasContext.fillStyle = "#ffbf00";
-    canvasContext.fillText("Jumps: " + NUMBEROFJUMPS, 350, 280); // количество прыжков Konovalov_Roman БЛОК
+    canvasContext.fillText("Jumps: " + NUMBEROFJUMPS, 350, 280); // количество прыжков 2 БЛОК
     var min = (SECONDS - SECONDS % 60) / 60;
     if (min <= 9) {
         min = "0" + min;

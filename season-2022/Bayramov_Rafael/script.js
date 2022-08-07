@@ -8,29 +8,29 @@ canvas.width = GAME.width;
 canvas.height = GAME.height;
 var canvasContext = canvas.getContext("2d");
 
-const image1 = new Image();    //Odintsov_Andrey
+const image1 = new Image();
 image1.src = 'img/choise.jpg';
-const image2 = new Image();    //Konovalov_Roman
+const image2 = new Image();
 image2.src = 'img/dad.jpg';
-const image3 = new Image();    //Vinogradov_Artem
+const image3 = new Image();
 image3.src = 'img/death.jpg';
-const image4 = new Image();    //Belyakova_Anna
+const image4 = new Image();
 image4.src = 'img/son.jpg';
-const image5 = new Image();    //Kuklin_Stanislav
+const image5 = new Image();
 image5.src = 'img/hatred.jpg';
-const image6 = new Image();    //Ershov_Ivan
+const image6 = new Image();
 image6.src = 'img/hatredAndLove.jpg';
-const image7 = new Image();    //Pastukhova_Arina
+const image7 = new Image();
 image7.src = 'img/hatredAndFriends.jpg';
-const image8 = new Image();    //Nasonova_Maria
+const image8 = new Image();
 image8.src = 'img/intro.png';
-const image9 = new Image();    //Stolbov_Maksim
+const image9 = new Image();
 image9.src = 'img/love.jpg';
-const image10 = new Image();   //Kalinin_Konstantin
+const image10 = new Image();
 image10.src = 'img/loveAndSon.jpg';
-const image11 = new Image();   //Prozorova_Anastasia
+const image11 = new Image();
 image11.src = 'img/lovesAndAdults.jpg';
-const image12 = new Image();   //Nugumanov_Amir
+const image12 = new Image();
 image12.src = 'img/mom.jpg';
 const fon = new Image();   //fon aaaa
 fon.src = 'img/fon.jpg';
@@ -40,48 +40,48 @@ var imgs = [0, image1, image2, image3, image4, image5, image6, image7, image8, i
 var index = 8
 
 var story = [0,
-    { // Odintsov_Andrey
+    {
         'z': 5,
         'x': 9,
         'c': 3,
     },
-    { // Konovalov_Roman
+    {
         'z': 1,
 
     },
-    { // Vinogradov_Artem
+    {
         'z': 4,
         'x': 12,
         'c': 2,
     },
-    { // Belyakova_Anna
+    {
         'z': 8,
     },
-    { // Kuklin_Stanislav
+    {
         'z': 7,
         'x': 6,
     },
-    { // Ershov_Ivan
+    {
         'z': 10,
         'x': 11,
     },
-    { // Pastukhova_Arina
+    {
         'z': 8,
     },
-    { // Nasonova_Maria
+    {
         'z': 1,
     },
-    { // Stolbov_Maksim
+    {
         'z': 10,
         'x': 11,
     },
-    { // Kalinin_Konstantin
+    {
         'z': 8,
     },
-    { // Prozorova_Anastasia
+    {
         'z': 8,
     },
-    { // Nugumanov_Amir
+    {
         'z': 8,
     },
 ]

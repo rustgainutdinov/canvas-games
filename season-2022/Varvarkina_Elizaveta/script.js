@@ -113,7 +113,7 @@ function updateBall(ball, racket) {
     //фон
     function drawBackground() {
         var img = new Image();
-        img.src = './Konovalov_Roman.jpg';
+        img.src = './2.jpg';
         canvasContext.drawImage(img, 0, 0, GAME.width, GAME.height);
     }
 

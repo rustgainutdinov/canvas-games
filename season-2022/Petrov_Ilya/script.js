@@ -120,15 +120,15 @@ function drawRect(rect) {
         rect.x = 55;
         rect.y = RECT.y;
     }
-    if (rect.position == "Odintsov_Andrey") {
+    if (rect.position == "1") {
         rect.x = 205;
         rect.y = RECT.y;
     }
-    if (rect.position == "Konovalov_Roman") {
+    if (rect.position == "2") {
         rect.x = 355;
         rect.y = RECT.y;
     }
-    if (rect.position == "Vinogradov_Artem") {
+    if (rect.position == "3") {
         rect.x = 505;
         rect.y = RECT.y;
     }
@@ -137,14 +137,14 @@ function drawRect(rect) {
         zeroposition();
     }
 
-    if (rect.position == "Odintsov_Andrey") {
+    if (rect.position == "1") {
         oneposition();
     }
 
-    if (rect.position == "Konovalov_Roman") {
+    if (rect.position == "2") {
         twoposition();
     }
-    if (rect.position == "Vinogradov_Artem") {
+    if (rect.position == "3") {
         threeposition();
     }
 }

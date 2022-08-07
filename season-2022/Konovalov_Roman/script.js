@@ -57,7 +57,7 @@ triangleArr = []
 var numpadimg = new Image();
 numpadimg.src = 'images/numpad.jpg';
 var maxLifes = CIRCLE.lifes;
-var buttonsArr = ["Kuklin_Stanislav", "Vinogradov_Artem", "Konovalov_Roman", "Odintsov_Andrey"];
+var buttonsArr = ["5", "3", "2", "1"];
 
 var canvas = document.getElementById("canvas");
 canvas.width = GAME.width;
@@ -104,23 +104,23 @@ function drawRect(rect) {
         rect.x = CIRCLE.x - rect.width / 2;
         rect.y = CIRCLE.y - rect.offset - rect.height / 2;
     }
-    if (rect.position == "Odintsov_Andrey") {
+    if (rect.position == "1") {
         rect.x = CIRCLE.x + rect.offset - rect.height / 2;
         rect.y = CIRCLE.y - rect.width / 2;
     }
-    if (rect.position == "Konovalov_Roman") {
+    if (rect.position == "2") {
         rect.x = CIRCLE.x - rect.width / 2;
         rect.y = CIRCLE.y + rect.offset - rect.height / 2;
     }
-    if (rect.position == "Vinogradov_Artem") {
+    if (rect.position == "3") {
         rect.x = CIRCLE.x - rect.offset - rect.height / 2;
         rect.y = CIRCLE.y - rect.width / 2;
     }
 
-    if ((rect.position == "0") || (rect.position == "Konovalov_Roman")) {
+    if ((rect.position == "0") || (rect.position == "2")) {
         horizontal();
     }
-    if ((rect.position == "Odintsov_Andrey") || (rect.position == "Vinogradov_Artem")) {
+    if ((rect.position == "1") || (rect.position == "3")) {
         vertical();
     }
 }

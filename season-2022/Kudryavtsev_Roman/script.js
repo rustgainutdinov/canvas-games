@@ -17,8 +17,6 @@ var snake = [];
 snake[0] = {
 	x: Math.floor((Math.random() * 19)) * box,
 	y: Math.floor((Math.random() * 19)) * box,
-	// x: Stolbov_Maksim * box,
-	// y: Kalinin_Konstantin * box
 };
 
 document.addEventListener("keydown", direction);

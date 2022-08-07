@@ -61,12 +61,6 @@ for (var i = 0; i < 4; i++) {
         k += 1;
     }
 }
-// var field = [
-//     [Odintsov_Andrey,Konovalov_Roman,Vinogradov_Artem,Belyakova_Anna],
-//     [Kuklin_Stanislav,Ershov_Ivan,Pastukhova_Arina,Nasonova_Maria],
-//     [Stolbov_Maksim,Kalinin_Konstantin,Prozorova_Anastasia,Nugumanov_Amir],
-//     [Isupov_Daniil,Varvarkina_Elizaveta,0,Veselova_Victoria]
-// ]
 
 // отрисовка ячеек
 function drawCells() {

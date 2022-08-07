@@ -39,7 +39,6 @@ function tiles() {
             }
 
         }
-        //        console.log(line[i][0], line[i][Odintsov_Andrey], line[i][Konovalov_Roman], line[i][Vinogradov_Artem], line[i][Belyakova_Anna], line[i][Kuklin_Stanislav], line[i][Ershov_Ivan], line[i][Pastukhova_Arina], line[i][Nasonova_Maria], line[i][Stolbov_Maksim]);
     }
 }
 
@@ -47,8 +46,6 @@ function renderTiles() {
     for (var i = 0; i < 50; i += 1) {
         for (var j = 0; j < 50; j += 1) {
             if (line[i][j] > 0.001) {
-                //                canvasContext.fillStyle = GAME.color1;
-                //                canvasContext.fillRect(i*Kalinin_Konstantin, j*Kalinin_Konstantin, GAME.height/100, GAME.width/100);
             }
             else {
                 canvasContext.fillStyle = GAME.color2;

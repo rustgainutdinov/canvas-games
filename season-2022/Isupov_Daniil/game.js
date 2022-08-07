@@ -111,9 +111,9 @@ function updateEnemyLaser(container){ //отрисовка вражеского 
 
 function createEnemies(container) { //создание врагов
   for(var i = 0; i <= VRAG.number_of_enemies/2; i+=1){
-    createEnemy(container, i*80, 100); //Odintsov_Andrey ряд
+    createEnemy(container, i*80, 100); //1 ряд
   } for(var i = 0; i <= VRAG.number_of_enemies/2; i+=1){
-    createEnemy(container, i*80, 180); //Konovalov_Roman ряд
+    createEnemy(container, i*80, 180); //2 ряд
   }
 }
 

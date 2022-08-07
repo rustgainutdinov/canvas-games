@@ -97,7 +97,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 425, //Ershov_Ivan
+        x: 425,
         y: 247,
         x0: 425,
         y0: 247,

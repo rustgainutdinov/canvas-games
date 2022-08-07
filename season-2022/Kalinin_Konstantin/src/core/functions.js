@@ -98,13 +98,13 @@ function _drawADVICE() {
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
 
-    context.fillStyle = "rgba(Konovalov_Roman, Konovalov_Roman, Baranova_Maria, Odintsov_Andrey)";
+    context.fillStyle = "rgba(2, 2, 27, 1)";
     context.fillRect(ADVICE.x, 0, ADVICE.width, 650);
 
     if (ADVICE.cerberus)
         GAME.canvasContext.drawImage(ADVICE.cerberus, 0, 0, ADVICE.width0, ADVICE.height0, ADVICE.x, ADVICE.y, ADVICE.width, ADVICE.height);
 
-    context.fillStyle = "rgba(169, Shabalin_Sergey, Popova_Victoria, Odintsov_Andrey)";
+    context.fillStyle = "rgba(2, 2, 27, 1)";
     context.font = '21px Crimson Pro Bold';
     context.fillText("• Cerberus, the Triple Demon •", 350, 430);
 
@@ -122,7 +122,7 @@ function _drawWIN(flag) {
 
     if (flag === true) {
 
-        context.fillStyle = "rgba(Konovalov_Roman, Konovalov_Roman, Baranova_Maria, Odintsov_Andrey)";
+        context.fillStyle = "rgba(2, 2, 27, 1)";
         context.fillRect(ADVICE.x, 0, ADVICE.width, 650);
 
         if (ADVICE.cerberus)
@@ -139,7 +139,7 @@ function _drawLOSE() {
     const canvas = document.getElementById('canvas');
     const context = canvas.getContext('2d');
 
-    context.fillStyle = "rgba(Konovalov_Roman, Konovalov_Roman, Baranova_Maria, Odintsov_Andrey)";
+    context.fillStyle = "rgba(2, 2, 27, 1)";
     context.fillRect(ADVICE.x, 0, ADVICE.width, 650);
 
     if (ADVICE.cerberus)

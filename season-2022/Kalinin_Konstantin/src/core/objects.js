@@ -37,7 +37,7 @@ let BOXES = [{
     size: 50,
 },
     {
-        x: 475, //Odintsov_Andrey
+        x: 475,
         y: 397,
         x0: 475,
         y0: 397,
@@ -49,7 +49,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 375, //Konovalov_Roman
+        x: 375,
         y: 447,
         x0: 375,
         y0: 447,
@@ -61,7 +61,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 425, //Vinogradov_Artem
+        x: 425,
         y: 397,
         x0: 425,
         y0: 397,
@@ -73,7 +73,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 325, //Belyakova_Anna
+        x: 325,
         y: 297,
         x0: 325,
         y0: 297,
@@ -85,7 +85,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 275, //Kuklin_Stanislav
+        x: 275,
         y: 397,
         x0: 275,
         y0: 397,
@@ -109,7 +109,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 530, //Pastukhova_Arina
+        x: 530,
         y: 247,
         x0: 530,
         y0: 247,
@@ -121,7 +121,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 425, //Nasonova_Maria
+        x: 425,
         y: 297,
         x0: 425,
         y0: 297,
@@ -133,7 +133,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 425, //Stolbov_Maksim
+        x: 425,
         y: 347,
         x0: 425,
         y0: 347,
@@ -145,7 +145,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 575, //Kalinin_Konstantin
+        x: 575,
         y: 397,
         x0: 575,
         y0: 397,
@@ -157,7 +157,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 525, //Prozorova_Anastasia
+        x: 525,
         y: 347,
         x0: 525,
         y0: 347,
@@ -169,7 +169,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 575, //Nugumanov_Amir
+        x: 575,
         y: 447,
         x0: 575,
         y0: 447,
@@ -181,7 +181,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 625, //Isupov_Daniil
+        x: 625,
         y: 447,
         x0: 625,
         y0: 447,
@@ -193,7 +193,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 575, //Varvarkina_Elizaveta
+        x: 575,
         y: 497,
         x0: 575,
         y0: 497,
@@ -205,7 +205,7 @@ let BOXES = [{
         size: 50,
     },
     {
-        x: 425, //Veselova_Victoria
+        x: 425,
         y: 497,
         x0: 425,
         y0: 497,

@@ -55,11 +55,6 @@ function processKey(e) {
     dx = 0;
     dy = 0;
 
-    //context.beginPath();
-    //context.fillStyle = "rgb(254, 244, 207)";
-    //context.rect(x, y, Prozorova_Anastasia, Prozorova_Anastasia);
-    //context.fill(); - вот эта вся ерунда не работает, потом доделаю
-
     if (e.keyCode == 38) {
         dy = -0.3;
     }

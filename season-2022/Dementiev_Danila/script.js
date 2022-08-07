@@ -94,6 +94,7 @@ function getRandomLevel2(min, max) {
     max = Math.floor(max);
     Result = Math.floor(Math.random() * (max - min)) + min
 }
+
 function getRandomRGB(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -101,6 +102,7 @@ function getRandomRGB(min, max) {
     G = Math.floor(Math.random() * (max - min)) + min
     B = Math.floor(Math.random() * (max - min)) + min
 }
+
 function getRandomRGB2(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -108,6 +110,7 @@ function getRandomRGB2(min, max) {
     G2 = Math.floor(Math.random() * (max - min)) + min
     B2 = Math.floor(Math.random() * (max - min)) + min
 }
+
 function getRandomRGB3(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -115,6 +118,7 @@ function getRandomRGB3(min, max) {
     G3 = Math.floor(Math.random() * (max - min)) + min
     B3 = Math.floor(Math.random() * (max - min)) + min
 }
+
 function getRandomRGB4(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -122,6 +126,7 @@ function getRandomRGB4(min, max) {
     G4 = Math.floor(Math.random() * (max - min)) + min
     B4 = Math.floor(Math.random() * (max - min)) + min
 }
+
 function getRandomRGB5(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
@@ -152,9 +157,8 @@ function updateBall() {
     if (racketTop && racketLeft && racketRight && racketDown) {
         BALL.yDerection = -BALL.yDerection - 0.2
         if (BALL.x + BALL.radius > RACKET.x + 75) {
-            BALL.xDerection = - BALL.xDerection + 0.2
-        }
-        else {
+            BALL.xDerection = -BALL.xDerection + 0.2
+        } else {
             BALL.xDerection = BALL.xDerection + 0.2
         }
         getRandomRGB3(0, 255)
@@ -170,8 +174,7 @@ function updateBall() {
             BALL.y = 400
             BALL.xDerection = 8
             BALL.yDerection = 10
-        }
-        else {
+        } else {
             alert("Вы проиграли! Ваш счёт: " + count)
         }
     }
@@ -184,7 +187,7 @@ function updateBall() {
             if (Block1Top && Block1Left && Block1Right && Block1Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 300) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(250, 50, BLOCK.width, BLOCK.height);
                 Block1 = 1
@@ -199,7 +202,7 @@ function updateBall() {
             if (Block2Top && Block2Left && Block2Right && Block2Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 400) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(350, 50, BLOCK.width, BLOCK.height);
                 Block2 = 1
@@ -215,7 +218,7 @@ function updateBall() {
             if (Block3Top && Block3Left && Block3Right && Block3Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 500) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(450, 50, BLOCK.width, BLOCK.height);
                 Block3 = 1
@@ -231,7 +234,7 @@ function updateBall() {
             if (Block4Top && Block4Left && Block4Right && Block4Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(550, 50, BLOCK.width, BLOCK.height);
                 Block4 = 1
@@ -247,7 +250,7 @@ function updateBall() {
             if (Block5Top && Block5Left && Block5Right && Block5Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 700) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(650, 50, BLOCK.width, BLOCK.height);
                 Block5 = 1
@@ -263,7 +266,7 @@ function updateBall() {
             if (Block6Top && Block6Left && Block6Right && Block6Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 800) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(750, 50, BLOCK.width, BLOCK.height);
                 Block6 = 1
@@ -279,7 +282,7 @@ function updateBall() {
             if (Block7Top && Block7Left && Block7Right && Block7Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 900) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(850, 50, BLOCK.width, BLOCK.height);
                 Block7 = 1
@@ -295,7 +298,7 @@ function updateBall() {
             if (Block8Top && Block8Left && Block8Right && Block8Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 350) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(300, 90, BLOCK.width, BLOCK.height);
                 Block8 = 1
@@ -311,7 +314,7 @@ function updateBall() {
             if (Block9Top && Block9Left && Block9Right && Block9Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 450) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(400, 90, BLOCK.width, BLOCK.height);
                 Block9 = 1
@@ -327,7 +330,7 @@ function updateBall() {
             if (Block10Top && Block10Left && Block10Right && Block10Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 550) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(500, 90, BLOCK.width, BLOCK.height);
                 Block10 = 1
@@ -343,7 +346,7 @@ function updateBall() {
             if (Block11Top && Block11Left && Block11Right && Block11Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 650) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(600, 90, BLOCK.width, BLOCK.height);
                 Block11 = 1
@@ -359,7 +362,7 @@ function updateBall() {
             if (Block12Top && Block12Left && Block12Right && Block12Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 750) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(700, 90, BLOCK.width, BLOCK.height);
                 Block12 = 1
@@ -375,7 +378,7 @@ function updateBall() {
             if (Block13Top && Block13Left && Block13Right && Block13Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 850) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(800, 90, BLOCK.width, BLOCK.height);
                 Block13 = 1
@@ -391,7 +394,7 @@ function updateBall() {
             if (Block14Top && Block14Left && Block14Right && Block14Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 400) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(350, 130, BLOCK.width, BLOCK.height);
                 Block14 = 1
@@ -407,7 +410,7 @@ function updateBall() {
             if (Block15Top && Block15Left && Block15Right && Block15Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 500) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(450, 130, BLOCK.width, BLOCK.height);
                 Block15 = 1
@@ -423,7 +426,7 @@ function updateBall() {
             if (Block16Top && Block16Left && Block16Right && Block16Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(550, 130, BLOCK.width, BLOCK.height);
                 Block16 = 1
@@ -439,7 +442,7 @@ function updateBall() {
             if (Block17Top && Block17Left && Block17Right && Block17Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 700) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(650, 130, BLOCK.width, BLOCK.height);
                 Block17 = 1
@@ -455,7 +458,7 @@ function updateBall() {
             if (Block18Top && Block18Left && Block18Right && Block18Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 800) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(750, 130, BLOCK.width, BLOCK.height);
                 Block18 = 1
@@ -471,7 +474,7 @@ function updateBall() {
             if (Block19Top && Block19Left && Block19Right && Block19Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 450) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(400, 170, BLOCK.width, BLOCK.height);
                 Block19 = 1
@@ -487,7 +490,7 @@ function updateBall() {
             if (Block20Top && Block20Left && Block20Right && Block20Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 550) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(500, 170, BLOCK.width, BLOCK.height);
                 Block20 = 1
@@ -503,7 +506,7 @@ function updateBall() {
             if (Block21Top && Block21Left && Block21Right && Block21Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 650) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(600, 170, BLOCK.width, BLOCK.height);
                 Block21 = 1
@@ -519,7 +522,7 @@ function updateBall() {
             if (Block22Top && Block22Left && Block22Right && Block22Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 750) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(700, 170, BLOCK.width, BLOCK.height);
                 Block22 = 1
@@ -535,7 +538,7 @@ function updateBall() {
             if (Block23Top && Block23Left && Block23Right && Block23Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 500) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(450, 210, BLOCK.width, BLOCK.height);
                 Block23 = 1
@@ -551,7 +554,7 @@ function updateBall() {
             if (Block24Top && Block24Left && Block24Right && Block24Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(550, 210, BLOCK.width, BLOCK.height);
                 Block24 = 1
@@ -567,7 +570,7 @@ function updateBall() {
             if (Block25Top && Block25Left && Block25Right && Block25Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 700) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(650, 210, BLOCK.width, BLOCK.height);
                 Block25 = 1
@@ -583,7 +586,7 @@ function updateBall() {
             if (Block26Top && Block26Left && Block26Right && Block26Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 550) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(500, 250, BLOCK.width, BLOCK.height);
                 Block26 = 1
@@ -599,7 +602,7 @@ function updateBall() {
             if (Block27Top && Block27Left && Block27Right && Block27Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 650) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(600, 250, BLOCK.width, BLOCK.height);
                 Block27 = 1
@@ -615,7 +618,7 @@ function updateBall() {
             if (Block28Top && Block28Left && Block28Right && Block28Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(550, 290, BLOCK.width, BLOCK.height);
                 Block28 = 1
@@ -633,7 +636,7 @@ function updateBall() {
             if (Block1Top && Block1Left && Block1Right && Block1Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 300) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(250, 50, BLOCK.width, BLOCK.height);
                 Block1 = 1
@@ -648,7 +651,7 @@ function updateBall() {
             if (Block2Top && Block2Left && Block2Right && Block2Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 400) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(350, 50, BLOCK.width, BLOCK.height);
                 Block2 = 1
@@ -664,7 +667,7 @@ function updateBall() {
             if (Block3Top && Block3Left && Block3Right && Block3Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 500) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(450, 50, BLOCK.width, BLOCK.height);
                 Block3 = 1
@@ -680,7 +683,7 @@ function updateBall() {
             if (Block4Top && Block4Left && Block4Right && Block4Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(550, 50, BLOCK.width, BLOCK.height);
                 Block4 = 1
@@ -696,7 +699,7 @@ function updateBall() {
             if (Block5Top && Block5Left && Block5Right && Block5Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 700) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(650, 50, BLOCK.width, BLOCK.height);
                 Block5 = 1
@@ -712,7 +715,7 @@ function updateBall() {
             if (Block6Top && Block6Left && Block6Right && Block6Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 800) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 SP1 += 1
                 if (SP1 === 2) {
@@ -727,8 +730,7 @@ function updateBall() {
                         canvasContext.clearRect(650, 50, BLOCK.width, BLOCK.height);
                         Block5 = 1
                         count += 10
-                    }
-                    else if (Result === 1) {
+                    } else if (Result === 1) {
                         canvasContext.clearRect(850, 50, BLOCK.width, BLOCK.height);
                         Block7 = 1
                         count += 10
@@ -741,16 +743,13 @@ function updateBall() {
                         canvasContext.clearRect(800, 90, BLOCK.width, BLOCK.height);
                         Block13 = 1
                         count += 10
-                    }
-                    else if (Result === 2) {
-                        if (life === 0){
+                    } else if (Result === 2) {
+                        if (life === 0) {
                             alert("Вы проиграли! Ваш счёт: " + count)
-                        }
-                        else {
+                        } else {
                             life -= 1
                         }
-                    }
-                    else if (Result === 3) {
+                    } else if (Result === 3) {
                         canvasContext.fillStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
                         canvasContext.fillRect(750, 48.5, BLOCK.width, BLOCK.height + 3);
                         Block6 = 0
@@ -770,7 +769,7 @@ function updateBall() {
             if (Block7Top && Block7Left && Block7Right && Block7Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 900) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(850, 50, BLOCK.width, BLOCK.height);
                 Block7 = 1
@@ -786,7 +785,7 @@ function updateBall() {
             if (Block8Top && Block8Left && Block8Right && Block8Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 350) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(300, 90, BLOCK.width, BLOCK.height);
                 Block8 = 1
@@ -802,7 +801,7 @@ function updateBall() {
             if (Block9Top && Block9Left && Block9Right && Block9Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 450) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 SP2 += 1
                 if (SP2 === 2) {
@@ -817,8 +816,7 @@ function updateBall() {
                         canvasContext.clearRect(500, 90, BLOCK.width, BLOCK.height);
                         Block10 = 1
                         count += 10
-                    }
-                    else if (Result === 1) {
+                    } else if (Result === 1) {
                         canvasContext.clearRect(300, 90, BLOCK.width, BLOCK.height);
                         Block8 = 1
                         count += 10
@@ -837,16 +835,13 @@ function updateBall() {
                         canvasContext.clearRect(450, 130, BLOCK.width, BLOCK.height);
                         Block15 = 1
                         count += 10
-                    }
-                    else if (Result === 2) {
-                        if (life === 0){
+                    } else if (Result === 2) {
+                        if (life === 0) {
                             alert("Вы проиграли! Ваш счёт: " + count)
-                        }
-                        else {
+                        } else {
                             life -= 1
                         }
-                    }
-                    else if (Result === 3) {
+                    } else if (Result === 3) {
                         canvasContext.fillStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
                         canvasContext.fillRect(400, 88.5, BLOCK.width, BLOCK.height + 3);
                         Block9 = 0
@@ -865,7 +860,7 @@ function updateBall() {
             if (Block10Top && Block10Left && Block10Right && Block10Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 550) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(500, 90, BLOCK.width, BLOCK.height);
                 Block10 = 1
@@ -881,7 +876,7 @@ function updateBall() {
             if (Block11Top && Block11Left && Block11Right && Block11Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 650) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(600, 90, BLOCK.width, BLOCK.height);
                 Block11 = 1
@@ -897,7 +892,7 @@ function updateBall() {
             if (Block12Top && Block12Left && Block12Right && Block12Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 750) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(700, 90, BLOCK.width, BLOCK.height);
                 Block12 = 1
@@ -913,7 +908,7 @@ function updateBall() {
             if (Block13Top && Block13Left && Block13Right && Block13Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 850) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(800, 90, BLOCK.width, BLOCK.height);
                 Block13 = 1
@@ -929,7 +924,7 @@ function updateBall() {
             if (Block14Top && Block14Left && Block14Right && Block14Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 400) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(350, 130, BLOCK.width, BLOCK.height);
                 Block14 = 1
@@ -945,7 +940,7 @@ function updateBall() {
             if (Block15Top && Block15Left && Block15Right && Block15Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 500) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(450, 130, BLOCK.width, BLOCK.height);
                 Block15 = 1
@@ -961,7 +956,7 @@ function updateBall() {
             if (Block16Top && Block16Left && Block16Right && Block16Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(550, 130, BLOCK.width, BLOCK.height);
                 Block16 = 1
@@ -977,7 +972,7 @@ function updateBall() {
             if (Block17Top && Block17Left && Block17Right && Block17Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 700) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 SP3 += 1
                 if (SP3 === 2) {
@@ -992,8 +987,7 @@ function updateBall() {
                         canvasContext.clearRect(750, 130, BLOCK.width, BLOCK.height);
                         Block18 = 1
                         count += 10
-                    }
-                    else if (Result === 1) {
+                    } else if (Result === 1) {
                         canvasContext.clearRect(550, 130, BLOCK.width, BLOCK.height);
                         Block16 = 1
                         count += 10
@@ -1012,16 +1006,13 @@ function updateBall() {
                         canvasContext.clearRect(700, 170, BLOCK.width, BLOCK.height);
                         Block22 = 1
                         count += 10
-                    }
-                    else if (Result === 2) {
-                        if (life === 0){
+                    } else if (Result === 2) {
+                        if (life === 0) {
                             alert("Вы проиграли! Ваш счёт: " + count)
-                        }
-                        else {
+                        } else {
                             life -= 1
                         }
-                    }
-                    else if (Result === 3) {
+                    } else if (Result === 3) {
                         canvasContext.fillStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
                         canvasContext.fillRect(650, 128.5, BLOCK.width, BLOCK.height + 3);
                         Block17 = 0
@@ -1040,7 +1031,7 @@ function updateBall() {
             if (Block18Top && Block18Left && Block18Right && Block18Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 800) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(750, 130, BLOCK.width, BLOCK.height);
                 Block18 = 1
@@ -1056,7 +1047,7 @@ function updateBall() {
             if (Block19Top && Block19Left && Block19Right && Block19Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 450) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(400, 170, BLOCK.width, BLOCK.height);
                 Block19 = 1
@@ -1072,7 +1063,7 @@ function updateBall() {
             if (Block20Top && Block20Left && Block20Right && Block20Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 550) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(500, 170, BLOCK.width, BLOCK.height);
                 Block20 = 1
@@ -1088,7 +1079,7 @@ function updateBall() {
             if (Block21Top && Block21Left && Block21Right && Block21Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 650) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(600, 170, BLOCK.width, BLOCK.height);
                 Block21 = 1
@@ -1104,7 +1095,7 @@ function updateBall() {
             if (Block22Top && Block22Left && Block22Right && Block22Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 750) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(700, 170, BLOCK.width, BLOCK.height);
                 Block22 = 1
@@ -1120,7 +1111,7 @@ function updateBall() {
             if (Block23Top && Block23Left && Block23Right && Block23Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 500) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(450, 210, BLOCK.width, BLOCK.height);
                 Block23 = 1
@@ -1136,7 +1127,7 @@ function updateBall() {
             if (Block24Top && Block24Left && Block24Right && Block24Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 SP4 += 1
                 if (SP4 === 2) {
@@ -1151,8 +1142,7 @@ function updateBall() {
                         canvasContext.clearRect(650, 210, BLOCK.width, BLOCK.height);
                         Block25 = 1
                         count += 10
-                    }
-                    else if (Result === 1) {
+                    } else if (Result === 1) {
                         canvasContext.clearRect(450, 210, BLOCK.width, BLOCK.height);
                         Block23 = 1
                         count += 10
@@ -1171,16 +1161,13 @@ function updateBall() {
                         canvasContext.clearRect(600, 250, BLOCK.width, BLOCK.height);
                         Block27 = 1
                         count += 10
-                    }
-                    else if (Result === 2) {
-                        if (life === 0){
+                    } else if (Result === 2) {
+                        if (life === 0) {
                             alert("Вы проиграли! Ваш счёт: " + count)
-                        }
-                        else {
+                        } else {
                             life -= 1
                         }
-                    }
-                    else if (Result === 3) {
+                    } else if (Result === 3) {
                         canvasContext.fillStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
                         canvasContext.fillRect(550, 208.5, BLOCK.width, BLOCK.height + 3);
                         Block24 = 0
@@ -1199,7 +1186,7 @@ function updateBall() {
             if (Block25Top && Block25Left && Block25Right && Block25Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 700) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(650, 210, BLOCK.width, BLOCK.height);
                 Block25 = 1
@@ -1215,7 +1202,7 @@ function updateBall() {
             if (Block26Top && Block26Left && Block26Right && Block26Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 550) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(500, 250, BLOCK.width, BLOCK.height);
                 Block26 = 1
@@ -1231,7 +1218,7 @@ function updateBall() {
             if (Block27Top && Block27Left && Block27Right && Block27Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 650) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 canvasContext.clearRect(600, 250, BLOCK.width, BLOCK.height);
                 Block27 = 1
@@ -1247,7 +1234,7 @@ function updateBall() {
             if (Block28Top && Block28Left && Block28Right && Block28Down) {
                 BALL.yDerection = -BALL.yDerection
                 if (BALL.x + BALL.radius > 600) {
-                    BALL.xDerection = - BALL.xDerection
+                    BALL.xDerection = -BALL.xDerection
                 }
                 SP5 += 1
                 if (SP5 === 2) {
@@ -1262,16 +1249,13 @@ function updateBall() {
                         canvasContext.clearRect(600, 250, BLOCK.width, BLOCK.height);
                         Block27 = 1
                         count += 10
-                    }
-                    else if (Result === 2) {
-                        if (life === 0){
+                    } else if (Result === 2) {
+                        if (life === 0) {
                             alert("Вы проиграли! Ваш счёт: " + count)
-                        }
-                        else {
+                        } else {
                             life -= 1
                         }
-                    }
-                    else if (Result === 3) {
+                    } else if (Result === 3) {
                         canvasContext.fillStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
                         canvasContext.fillRect(550, 288.5, BLOCK.width, BLOCK.height + 3);
                         Block28 = 0
@@ -1284,6 +1268,7 @@ function updateBall() {
     }
 
 }
+
 function updateLevel() {
     if (count === 280) {
         BALL.xDerection = 10
@@ -1352,6 +1337,7 @@ function updateLevel() {
         Block28 = 0
     }
 }
+
 function youwin() {
     if (level === 3) {
         level = 1
@@ -1370,173 +1356,174 @@ function drawFrame() {
     drawBlock()
     drawBlock2()
 }
+
 function drawBlock() {
     if (level === 1) {
         if (Block1 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(250, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block2 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(350, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block3 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(450, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block4 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(550, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block5 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(650, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block6 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(750, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block7 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(850, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block8 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(300, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block9 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(400, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block10 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(500, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block11 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(600, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block12 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(700, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block13 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(800, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block14 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(350, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block15 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(450, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block16 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(550, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block17 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(650, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block18 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(750, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block19 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(400, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block20 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(500, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block21 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(600, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block22 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(700, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block23 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(450, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block24 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(550, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block25 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(650, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block26 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(500, 250, BLOCK.width, BLOCK.height);
         }
 
         if (Block27 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(600, 250, BLOCK.width, BLOCK.height);
         }
 
         if (Block28 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(550, 290, BLOCK.width, BLOCK.height);
         }
     }
@@ -1546,31 +1533,31 @@ function drawBlock2() {
     if (level === 2) {
         if (Block1 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(250, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block2 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(350, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block3 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(450, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block4 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(550, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block5 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(650, 50, BLOCK.width, BLOCK.height);
         }
 
@@ -1581,13 +1568,13 @@ function drawBlock2() {
 
         if (Block7 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(850, 50, BLOCK.width, BLOCK.height);
         }
 
         if (Block8 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(300, 90, BLOCK.width, BLOCK.height);
         }
 
@@ -1598,43 +1585,43 @@ function drawBlock2() {
 
         if (Block10 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(500, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block11 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(600, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block12 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(700, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block13 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(800, 90, BLOCK.width, BLOCK.height);
         }
 
         if (Block14 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(350, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block15 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(450, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block16 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(550, 130, BLOCK.width, BLOCK.height);
         }
 
@@ -1645,37 +1632,37 @@ function drawBlock2() {
 
         if (Block18 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(750, 130, BLOCK.width, BLOCK.height);
         }
 
         if (Block19 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(400, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block20 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(500, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block21 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(600, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block22 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(700, 170, BLOCK.width, BLOCK.height);
         }
 
         if (Block23 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(450, 210, BLOCK.width, BLOCK.height);
         }
 
@@ -1686,19 +1673,19 @@ function drawBlock2() {
 
         if (Block25 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(650, 210, BLOCK.width, BLOCK.height);
         }
 
         if (Block26 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(500, 250, BLOCK.width, BLOCK.height);
         }
 
         if (Block27 === 0) {
             canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-            canvasContext.lineWidth = "Vinogradov_Artem"
+            canvasContext.lineWidth = 3
             canvasContext.strokeRect(600, 250, BLOCK.width, BLOCK.height);
         }
 
@@ -1711,31 +1698,36 @@ function drawBlock2() {
 
 function drawBall() {
     canvasContext.strokeStyle = "rgb(" + R + "," + G + "," + B + ")";
-    canvasContext.lineWidth = "Vinogradov_Artem"
+    canvasContext.lineWidth = 3
     canvasContext.beginPath();
     canvasContext.arc(BALL.x, BALL.y, BALL.radius, 0, 2 * Math.PI);
     canvasContext.stroke();
 }
+
 function drawRacket() {
     canvasContext.strokeStyle = RACKET.color;
-    canvasContext.lineWidth = "Vinogradov_Artem"
+    canvasContext.lineWidth = 3
     canvasContext.strokeRect(RACKET.x, RACKET.y, RACKET.width, RACKET.height);
 }
+
 function drawBackgrownd() {
     canvasContext.strokeStyle = "rgb(" + R2 + "," + G2 + "," + B2 + ")";
-    canvasContext.lineWidth = "Pastukhova_Arina"
+    canvasContext.lineWidth = 8;
     canvasContext.strokeRect(0, 0, GAME.width, GAME.height);
 }
+
 function drawSkore() {
     canvasContext.fillStyle = "rgb(" + R4 + "," + G4 + "," + B4 + ")"
     canvasContext.font = "32px Arial"
     canvasContext.fillText("Score is:" + count, 49, 110)
 }
+
 function drawLevel() {
     canvasContext.fillStyle = "rgb(" + R4 + "," + G5 + "," + B5 + ")"
     canvasContext.font = "32px Arial"
     canvasContext.fillText("Level is:" + level, 50, 70)
 }
+
 function drawLife() {
     canvasContext.fillStyle = "rgb(" + 255 + "," + 0 + "," + 0 + ")"
     canvasContext.font = "32px Arial"
@@ -1747,6 +1739,7 @@ function initEventsListeners() {
     window.addEventListener("mousemove", onCanvasMouseMove)
     window.addEventListener("keydown", onCanvasKeyDown)
 }
+
 function onCanvasMouseMove(event) {
     RACKET.x = event.clientX
     getRandomRGB3(0, 255)
@@ -1758,6 +1751,7 @@ function onCanvasMouseMove(event) {
         RACKET.x = GAME.width - RACKET.width
     }
 }
+
 function onCanvasKeyDown(event) {
     console.log(event.key)
     if (event.key === "a" || event.key === "ArrowLeft") {
@@ -1773,6 +1767,7 @@ function onCanvasKeyDown(event) {
         RACKET.x = GAME.width - RACKET.width
     }
 }
+
 function play() {
     drawFrame();
     drawSkore()

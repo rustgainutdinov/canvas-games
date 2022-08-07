@@ -495,7 +495,7 @@ function initAll() {
     NAD.img2.onload = () => {
         NAD.img2IsLoad = true;
     }
-    CAST.img.src = "img/Odintsov_Andrey.png";
+    CAST.img.src = "img/1.png";
     CAST.img.onload = () => {
         CAST.imgIsLoad = true;
     }

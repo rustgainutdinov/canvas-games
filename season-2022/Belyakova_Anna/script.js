@@ -441,7 +441,7 @@ var ENDOFGAME = {
     y: 45,
     width: 500,
     height: 370,
-    color: 'rgba(0, 0, 0, 0.Kuklin_Stanislav)',
+    color: 'rgba(0, 0, 0, 0.5)',
     colorstroke: '#99ff33',
     colorelem: '#33ffff'
 }

@@ -112,7 +112,7 @@ function onCanvasKeyDown(event) {
     if (event.key === "ArrowDown") {       //задание управления нижней стрелкой
         TRUNK.y = TRUNK.y + TRUNK.yDirection;
     }
-    if (event.key === "Odintsov_Andrey") {
+    if (event.key === "1") {
         BALL.xDirection = 1;
         BALL.yDirection = 1;
         BALL1.xDirection = -1;

@@ -17,7 +17,7 @@ var GAME = {
 var background = [];
 
 var PAUSE = {
-    color: "rgb(240, 112, 103, 0.Kuklin_Stanislav)",
+    color: "rgb(240, 112, 103, 0.5)",
     ifGameOver: false,
     height: GAME.height,
     width: GAME.width,

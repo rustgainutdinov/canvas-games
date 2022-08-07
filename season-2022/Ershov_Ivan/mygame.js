@@ -304,7 +304,7 @@ function updateEnemyes(enemyes) {
         if (enemy.x < -100) {
             enemyes.splice(enemyes.indexOf(enemy), 1);
         } 
-        if (enemy.count % enemy.fireRate == 0) {
+        if (enemy.count % enemy.fireRate === 0) {
         append_bull(enemy.x + 5 + 20, enemy.y + enemy.size / 2, -20, 'pink', BULLETS_ENEMYES, EnemyBullet);
         }
         for (bullet of BULLETS_PLAYER) {
@@ -331,12 +331,12 @@ function drawmenu() {
     canvasContext.beginPath();
     canvasContext.fillRect(BUTTON1.x - 3, BUTTON1.y - 40, 180, 55);
     canvasContext.fillStyle = 'black';
-    canvasContext.fillText("Konovalov_Roman игрока", BUTTON1.x, BUTTON1.y);
+    canvasContext.fillText("2 игрока", BUTTON1.x, BUTTON1.y);
     canvasContext.fillStyle = BUTTON4.color;
     canvasContext.beginPath();
     canvasContext.fillRect(BUTTON4.x + 7, BUTTON4.y - 40, 160, 55);
     canvasContext.fillStyle = 'black';
-    canvasContext.fillText("Odintsov_Andrey игрок", BUTTON4.x + 10, BUTTON4.y);
+    canvasContext.fillText("1 игрок", BUTTON4.x + 10, BUTTON4.y);
 }
 
 function drawcursor() {

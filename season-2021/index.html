@@ -1,452 +1,171 @@
 <!DOCTYPE html>
-<!-- saved from url=(0049)https://getbootstrap.com/docs/4.0/examples/album/ -->
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
-
-    <title>Игры на Canvas сезон 2021</title>
-
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/album/">
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- Custom styles for this template -->
-    <link href="../src/css/album.css" rel="stylesheet">
-    <script src="../src/js/app.js"></script>
+    <link rel="icon" href="../src/images/favicon.png">
+    <title>Сезон 2021</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../src/css/game-collection.css">
 </head>
-
 <body>
-<div id="contentBody">
-    <main role="main">
-
-        <section class="jumbotron text-center">
-            <div class="container">
-                <h1 class="jumbotron-heading">Игры на Canvas сезон 2021</h1>
-                <a class="btn btn-outline-secondary my-4" onclick="showContent('../index.html')">Главное меню</a>
+<script src="../src/js/App.js"></script>
+<div class="header">
+    <div class="header header__header-wrapper">
+        <div class="header header__top-panel">
+            <img class="header header__logo-image" src="../src/images/main_menu/logo.png" alt="logo-image"
+                 onclick="RedirectToLink('../index.html')">
+        </div>
+    </div>
+</div>
+<div class="main-div">
+    <div class="main-div__title-area">
+        <p class="main-div__title">Список игр</p>
+    </div>
+    <div class="main-div__cards-wrapper">
+        <div class="main-div__cards-row">
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/terius-min.png" alt="terius">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Татьянина Мария</p>
+                        <p class="game-card__game-info-text">Игра: Terius</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('https://guzhiwo.github.io/')">Поиграть!</button>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <div class="album py-5 bg-light">
-            <div class="container">
-
-                <div class="row">
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top" alt="Thumbnail [100%x225]"
-                                 style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/terius-min.png"
-                                 data-holder-rendered="true">
-                            <div class="card-body">
-                                <p class="card-text">В одну из дождливых ночей из окна проезжающей машины был выброшен
-                                    котёнок... Помоги юному Териусу переждать проливной дождь, оберегая его от падающих
-                                    шишек.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://guzhiwo.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/snake-min.png" alt="snake">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Долгирев Алексей</p>
+                        <p class="game-card__game-info-text">Игра: Змейка</p>
                     </div>
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/snake-min.png">
-                            <div class="card-body">
-                                <p class="card-text">"Современный релаксирующий трехмерный аналог игры Змейка с
-                                    телефонов
-                                    Nokia с удобными элементами управления для любых устройств.
-                                    Отличительной особенностью является возможность “хлопнуть бургер” в неограниченных
-                                    количествах без риска испортить свою фигуру."</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="http://creado.info/snake3d/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('http://creado.info/snake3d/')">Поиграть!</button>
                     </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/krasilnikov30-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Маленький кактус устал расти на одном месте научился ходить! Находя
-                                    и
-                                    запасая ценные ресурсы, применяя необычные способности, он должен пройти как можно
-                                    больше уровней в увлекательной игре под названием "Freedom cactus".</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="freedomcactus/index.html">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+            </div>
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/krasilnikov30-min.png" alt="freedom_cactus">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Красильников Богдан</p>
+                        <p class="game-card__game-info-text">Игра: Freedom cactus</p>
                     </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/tetris-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Самый классический тетрис)</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://d3nari.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/Vishenka4ka-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Вы и ваш друг играете за двух магов(желтого мага электричества и
-                                    синего
-                                    мага огня). Задача каждого - победить оппонента. Для этого нужно попасть по нему 10
-                                    раз
-                                    своим снарядом(электрическим разрядом или фаерболом).</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="http://Vishenka4ka.github.io">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/freedomcoder-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Tomb of the Bomb - игра "бомбер" в стиле ретро,
-                                    но с современными возможностями сетевой игры и
-                                    поддержкой сенсорных дисплеев! Ставь бомбы и
-                                    выживай на поле 16x16!</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://freedomcoder.ru/game/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/tutitam1-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Вы играете за персонажа, задача которого выбраться из подземелья.
-                                    Ему
-                                    поможет торговец, который предложит ему одну из трех вещей на выбор. Вам предстоит
-                                    одолеть отряд опасных противников и, возможно, самого дракона, короля
-                                    подземелья.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://tutitam1.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/kirillveresnikov-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Игра в духе старых flash игр для двух людей.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://kirillveresnikov.github.io/intensive2021/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/raidervnd-min.png">
-                            <div class="card-body">
-                                <p class="card-text">В Blessed Apples основная цель - это поймать в корзину падающие
-                                    яблоки
-                                    с благословением. При успешной поимке всех 40 яблок получаете благословение на
-                                    семестр!</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://raidervnd.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/pryandrey-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Классический представитель крестиков-ноликов — логической игры
-                                    между
-                                    двумя противниками на квадратном поле 3 на 3 клетки.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://pryandrey.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/vascodeyola-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Rescue Diver - это простая бесконечная игра-комикс. С
-                                    привлекательной
-                                    графикой, веселыми персонажами милой музыкой. Ваша задача спасти маленького
-                                    бодипозитивного Дайвера.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://vascodeyola.github.io/rescue_diver/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/myashaa-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Динозаврик очень хочет добраться до дома, но на его пути стоит
-                                    множество препятствий. Ему нужна ваша помощь, чтобы попасть домой!</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://myashaa.github.io./">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/artom-art-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Главный герой - охотник на компьютерные вирусы. Эти вирусы не
-                                    похожи на
-                                    обычных. Задача персонажа - любой ценой поймать компьютер зараженный одним из таких
-                                    вирусов.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://artom-art.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/beta442-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Игра по мотиву мультсериала! Лови медуз с Губкой Бобом :)</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://beta442.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/romankazantsev13-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Русский боец проник на базу к американцам. Твоя задача отстаться
-                                    незамеченным.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://romankazantsev13.github.io/game2021/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/romankazantsev13-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Русский боец проник на базу к американцам. Твоя задача отстаться
-                                    незамеченным.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://romankazantsev13.github.io/game2021/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/evgen1s-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Переосмысленный взгляд на знаменитую игру прошлого - тетрис.
-                                    Выстраивай
-                                    падающие с неба блоки в линии. Не дай блокам коснуться потолка</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://evgen1s.github.io/Tetris_v2/index.html">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/igormayshanov-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Ну, как в гугле</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://igormayshanov.github.io/web-development/Dinosaur%20Game/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="col-md-4 mb-4">
-                        <div class="card h-100 box-shadow">
-                            <img class="card-img-top"
-                                 data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
-                                 alt="Thumbnail [100%x225]" style="height: 225px; width: 100%; display: block;"
-                                 src="../src/images/2021/mointpan-min.png">
-                            <div class="card-body">
-                                <p class="card-text">Духовный наследник игры Contra 1987 года. Недалёкое будущее,
-                                    восстание
-                                    машин, Терминатор на минималках. Дождись обновлений и унитожь угрозу :)</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <a type="button" class="btn btn-sm btn-outline-secondary" target="blank"
-                                           href="https://mointpan.github.io/">Играть</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('../season-2021/Krasilnikov_Bogdan/index.html')">Поиграть!</button>
                     </div>
                 </div>
             </div>
         </div>
-    </main>
-</div>
+        <div class="main-div__cards-row">
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/tetris-min.png" alt="tetris">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Каракулов Даниил</p>
+                        <p class="game-card__game-info-text">Игра: Тетрис</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('../season-2021/Karakulov_Daniil/index.html')">Поиграть!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/Vishenka4ka-min.png" alt="magic_battle">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Ершов Глеб</p>
+                        <p class="game-card__game-info-text">Игра: MagicBattle</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('https://vishenka4ka.github.io/')">Поиграть!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/tutitam1-min.png" alt="d&d">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Сафаров Тахир</p>
+                        <p class="game-card__game-info-text">Игра: Dungeons and Dragons</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('https://safarovt.github.io/')">Поиграть!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-div__cards-row">
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/kirillveresnikov-min.png" alt="fighting">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Вересников Кирилл</p>
+                        <p class="game-card__game-info-text">Игра: Файтинг</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('https://veresnikov.github.io/intensive2021/')">Поиграть!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/pryandrey-min.png" alt="tic-tac-toe">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Пряшников Андрей</p>
+                        <p class="game-card__game-info-text">Игра: Крестики-нолики</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('https://pryandrey.github.io/')">Поиграть!</button>
+                    </div>
+                </div>
+            </div>
+            <div class="main-div__card">
+                <div class="game-card__image-area">
+                    <img class="game-card__image-area" src="../src/images/2021/igormayshanov-min.png" alt="dino">
+                </div>
+                <div class="game-card__game-info-area">
+                    <div class="game-card__text-area">
+                        <p class="game-card__game-info-text">Автор: Игорь Майшанов</p>
+                        <p class="game-card__game-info-text">Игра: Динозаврик</p>
+                    </div>
+                    <div class="main-div__button-wrapper">
+                        <button class="game-card__button" onclick="RedirectToLink('https://igormayshanov.github.io/web-development/Dinosaur%20Game/')">Поиграть!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<svg xmlns="http://www.w3.org/2000/svg" width="348" height="225" viewBox="0 0 348 225" preserveAspectRatio="none"
-     style="display: none; visibility: hidden; position: absolute; top: -100%; left: -100%;">
-    <defs>
-        <style type="text/css"></style>
-    </defs>
-    <text x="0" y="17" style="font-weight:bold;font-size:17pt;font-family:Arial, Helvetica, Open Sans, sans-serif">
-        Thumbnail
-    </text>
-</svg>
+    </div>
+    <div class="main-div__footer">
+        <div class="footer__button-up-image-area">
+            <img class="footer__button-up-image" id="button-up" src="../src/images/button-up.png" alt="button-up" onclick="scrollToPos(0)">
+        </div>
+    </div>
+</div>
 </body>
 </html>

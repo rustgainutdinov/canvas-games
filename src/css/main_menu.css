@@ -22,6 +22,7 @@ body {
 
 .header__logo-image {
     padding-top: 20px;
+    cursor: pointer;
 }
 
 .header__text-message-area {
@@ -87,8 +88,10 @@ body {
     color: white;
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    cursor: pointer;
 }
 
 .card__button:disabled {
     background-color: #ccc;
+    cursor: revert;
 }

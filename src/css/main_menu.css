@@ -16,8 +16,7 @@ body {
 }
 
 .header__top-panel {
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 22px;
 }
 
 .header__logo-image {
@@ -26,6 +25,8 @@ body {
 }
 
 .header__text-message-area {
+    padding-left: 22px;
+    padding-right: 22px;
     align-items: center;
     max-width: 540px;
 }
@@ -94,4 +95,21 @@ body {
 .card__button:disabled {
     background-color: #ccc;
     cursor: revert;
+}
+
+@media screen and (max-width: 1340px) {
+    .header__header-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .main-div__cards-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-div__card {
+        margin-bottom: 20px;
+    }
 }

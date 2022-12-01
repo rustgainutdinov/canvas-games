@@ -105,11 +105,38 @@ body {
 }
 
 .footer__button-up-image-area {
-    margin-top: 30px;
     margin-right: 5%;
 }
 
 .footer__button-up-image {
+    cursor: pointer;
+}
+
+.main-div__pagination-area {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.pagination {
+    display: inline-block;
+    font-family: Roboto, sans-serif;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #8363FF;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover {
     cursor: pointer;
 }
 

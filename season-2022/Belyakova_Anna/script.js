@@ -727,7 +727,7 @@ function play() {
         drawWinner(ENDOFGAME);
     }
     else if (! GAMEOVER && START === 1) {
-        if (SECONDS === 20) {
+        if (SECONDS === 23) {
             drawFrame();
             drawWinner(ENDOFGAME);
             stop(aud);
@@ -763,7 +763,7 @@ function drawWinner() {
     drawWindow(ENDOFGAME);
     canvasContext.font = "35px Verdana";
     canvasContext.fillStyle = "white";
-    canvasContext.fillText("You are the winner! <Vinogradov_Artem", 190, 250); // победитель
+    canvasContext.fillText("You are the winner!", 260, 250); // победитель
 }
 function drawWindow(endofgame){
     canvasContext.fillStyle = endofgame.color;

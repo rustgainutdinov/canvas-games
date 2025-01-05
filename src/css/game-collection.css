@@ -41,17 +41,18 @@ body {
 
 .main-div__cards-wrapper {
     display: flex;
-    flex-direction: column;
-}
-
-.main-div__cards-row {
-    padding-top: 50px;
-    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
     justify-content: space-evenly;
+    padding: 50px 100px;
+    margin: 0 auto;
 }
 
 .main-div__card {
-    width: 300px;
+    flex: 0 1 calc(33.33% - 20px);
+    max-width: 300px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     height: 350px;
     border-radius: 27px;
     border: 1px solid;

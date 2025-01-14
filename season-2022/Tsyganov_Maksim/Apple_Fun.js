@@ -354,10 +354,10 @@ function updateCal() {
 // жизни игрока
 function updatelifen() {
     if (life === 3) {
-        LIFE.img.src = "life-3.png";
+        LIFE.img.src = "life-run_from_the_dark.png";
     }
     if (life === 2) {
-        LIFE.img.src = "life-2.png";
+        LIFE.img.src = "life-aero_hockey.png";
     }
     if (life === 1) {
         LIFE.img.src = "life.png";

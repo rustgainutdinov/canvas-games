@@ -49,8 +49,7 @@ body {
 }
 
 .main-div__card {
-    flex: 0 1 calc(33.33% - 20px);
-    max-width: 300px;
+    width: 300px;
     box-sizing: border-box;
     margin-bottom: 20px;
     height: 350px;

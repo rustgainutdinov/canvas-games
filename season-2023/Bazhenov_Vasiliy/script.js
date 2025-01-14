@@ -19,7 +19,7 @@ function drawBackground() {
 }
 
 function initImage() {
-    GAME.img.src = "./foto/ball 1.png"
+    GAME.img.src = "./foto/ball pudge_vs_creeps.png"
     GAME.img.onload = () => {
         GAME.imgIsLoad = true;
     }
@@ -112,7 +112,7 @@ function drawDoor1() {
 }
 
 function initImageDoor() {
-    DOOR.img.src = "./foto/door 2.png"
+    DOOR.img.src = "./foto/door aero_hockey.png"
     DOOR.img.onload = () => {
         DOOR.imgIsLoad = true;
     }

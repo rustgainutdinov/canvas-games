@@ -1,7 +1,7 @@
 const GameCardTemplate = `
   <div class="main-div__card">
     <div class="game-card__image-area">
-      <img class="game-card__image-area" src="{{imageSrc}}" alt="{{altText}}">
+      <img class="game-card__image-area" src="{{imageSrc}}" alt="{{altText}}" loading="lazy">
     </div>
     <div class="game-card__game-info-area">
       <div class="game-card__text-area">

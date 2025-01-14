@@ -44,6 +44,9 @@ body {
 .main-div__cards-wrapper {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0 150px;
+    gap: 30px;
 }
 
 .main-div__card {

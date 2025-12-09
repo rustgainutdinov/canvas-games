@@ -1,40 +1,5 @@
 [
   {
-    "author": "Глущук Илья",
-    "gameName": "Gobl Killer",
-    "imageSrc": "../src/images/2025/gobl_killer.png",
-    "altText": "gobl_killer",
-    "link": "../season-2025/Ilya_Glushuk/index.html"
-  },
-  {
-    "author": "Чижов Дмитрий",
-    "gameName": "Air defence",
-    "imageSrc": "../src/images/2025/air_defence.png",
-    "altText": "air_defence",
-    "link": "../season-2025/Chizhov_Dmitriy/index.html"
-  },
-  {
-    "author": "Токтаев Иван",
-    "gameName": "Space invaders",
-    "imageSrc": "../src/images/2025/space_invaders.png",
-    "altText": "space_invaders",
-    "link": "../season-2025/Toktaev_Ivan/index.html"
-  },
-  {
-    "author": "Поцелуев Иван",
-    "gameName": "Ozon coat",
-    "imageSrc": "../src/images/2025/ozon_coat.png",
-    "altText": "ozon_coat",
-    "link": "../season-2025/Poceluyev_Ivan/index.html"
-  },
-  {
-    "author": "Гаянов Рамиль",
-    "gameName": "Shark attack",
-    "imageSrc": "../src/images/2025/shark_attack.png",
-    "altText": "shark_attack",
-    "link": "../season-2025/Gayanov_Ramil/index.html"
-  },
-  {
     "author": "Лочаков Александр",
     "gameName": "Star wars",
     "imageSrc": "../src/images/2025/star_wars.png",

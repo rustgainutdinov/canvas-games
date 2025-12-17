@@ -47,5 +47,40 @@
     "imageSrc": "../src/images/2025/coes.png",
     "altText": "coes",
     "link": "../season-2025/Danilov_Yaroslav/index.html"
+  },
+  {
+    "author": "Бабинцев Ярослав",
+    "gameName": "Undyne (Pacifist)",
+    "imageSrc": "../src/images/2025/undyne.png",
+    "altText": "undyne",
+    "link": "../season-2025/Babincev_Arseniy/index.html"
+  },
+  {
+    "author": "Васьков Николай",
+    "gameName": "Doodle Jump",
+    "imageSrc": "../src/images/2025/doodle_jump.png",
+    "altText": "doodle_jump",
+    "link": "../season-2025/Vaskov_Nikolay/index.html"
+  },
+  {
+    "author": "Дорофеев Кирилл",
+    "gameName": "Curse of the maze",
+    "imageSrc": "../src/images/2025/cotm.png",
+    "altText": "cotm",
+    "link": "../season-2025/Dorofeev_Kirill/index.html"
+  },
+  {
+    "author": "Ляпунцов Семён",
+    "gameName": "Space Invaders",
+    "imageSrc": "../src/images/2025/space_invaders2.png",
+    "altText": "space_invaders",
+    "link": "../season-2025/Lyapuntsov_Semen/index.html"
+  },
+  {
+    "author": "Колупаев Иван",
+    "gameName": "Aero Hockey",
+    "imageSrc": "../src/images/2025/aero_hockey.png",
+    "altText": "aero_hockey",
+    "link": "../season-2025/Kolupaev_Ivan/index.html"
   }
 ]
